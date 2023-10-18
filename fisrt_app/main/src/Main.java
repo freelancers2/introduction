@@ -17,6 +17,8 @@ public class Main {
     System.out.println(obj2.sum());
   }
   // static method is a method can be invoked by the class
+  // example Main.greeting("Talal"); if invoked out of the Main class
+  // and greeting("Talal"); if invoked inside Main class
   // inside the class we can invoke it without anything
   public static String greeting(String name){
 
